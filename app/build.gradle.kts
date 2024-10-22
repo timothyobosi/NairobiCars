@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+
+    // Add the Google services Gradle plugin
     id("com.google.gms.google-services")
 }
 
@@ -73,4 +75,10 @@ dependencies {
 
     //firebase analytics
     implementation("com.google.firebase:firebase-analytics")
+
+    //google play
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
+
+    implementation("com.github.bumptech.glide:glide:4.12.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
 }

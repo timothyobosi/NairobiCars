@@ -5,6 +5,9 @@ plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.jetbrains.kotlin.android) apply false
     // You can also add the Google services plugin here (but it must be declared separately in the buildscript block)
+
+    //Add dependency for the Google services Gradle plugin
+    id("com.google.gms.google-services") version "4.4.2" apply false
 }
 
 buildscript {
