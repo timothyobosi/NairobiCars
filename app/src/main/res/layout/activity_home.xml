@@ -7,12 +7,14 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
+    android:background="@color/white"
     tools:context=".HomeActivity">
 
     <TextView
         android:id="@+id/welcomeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/light_blue_900"
         android:text="Welcome to Nairobi Cars!"
         android:textSize="24sp"
         android:textStyle="bold"/>
@@ -23,5 +25,12 @@
         android:layout_height="wrap_content"
         android:text="List Your Car"
         android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/viewCars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Listed Cars"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>

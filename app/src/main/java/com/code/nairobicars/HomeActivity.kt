@@ -16,6 +16,7 @@ class HomeActivity : AppCompatActivity() {
 
     private lateinit var welcomeTextView: TextView
     private lateinit var listCarsButton: Button
+    private lateinit var viewTheCars: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,10 +25,19 @@ class HomeActivity : AppCompatActivity() {
         welcomeTextView = findViewById(R.id.welcomeTextView)
         listCarsButton = findViewById(R.id.listCarsButton)
 
+        viewTheCars = findViewById(R.id.viewCars)
+
         // Handle car listing
         listCarsButton.setOnClickListener {
             // Navigate to Car Listing Activity
             startActivity(Intent(this, ListCarActivity::class.java))
         }
+
+        viewTheCars.setOnClickListener {
+            startActivity(Intent(this, ViewCarsActivity::class.java))
+        }
+
+
+
     }
 }
