@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226830917938",
+    "project_id": "nairobicars-40847",
+    "storage_bucket": "nairobicars-40847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226830917938:android:a38aec0c012ef3e305772b",
+        "android_client_info": {
+          "package_name": "com.code.nairobicars"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlgMBeeX8BvI5lPBw3iFBuc2cgse9gDb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226830917938:android:0c65ea8121e473db05772b",
+        "android_client_info": {
+          "package_name": "com.ex.w"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlgMBeeX8BvI5lPBw3iFBuc2cgse9gDb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

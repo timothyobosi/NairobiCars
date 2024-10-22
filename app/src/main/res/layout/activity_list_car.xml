@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.ListCarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Your Car"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/carMakeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Make"/>
+
+    <EditText
+        android:id="@+id/carModelEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Model"/>
+
+    <Button
+        android:id="@+id/uploadImagesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Images"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/imageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/listCarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Car"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

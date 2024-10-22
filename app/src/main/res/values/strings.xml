@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NairobiCars</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_views_cars">ViewsCarsActivity</string>
+
+    <string name="filter_by_year">Filter by Year</string>
+    <string name="filter_by_price">Filter by Price</string>
+
+
+    <string-array name="year_filter_options">
+        <item>All Years</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <!-- Add more year options -->
+    </string-array>
+
+    <string-array name="price_filter_options">
+        <item>All Prices</item>
+        <item>Below 1M</item>
+        <item>1M - 3M</item>
+        <item>Above 3M</item>
+    </string-array>
+
+</resources>
